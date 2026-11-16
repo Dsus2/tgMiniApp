@@ -1,0 +1,17 @@
+{
+  "name": "iikogate-miniapp-server",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Thin backend for the Mini App: proxies the gateway's catalog API so the API key never reaches the browser.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^8.7.4",
+    "undici": "^6.29.1"
+  }
+}
